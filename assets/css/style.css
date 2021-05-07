@@ -144,13 +144,20 @@ p {
 .skills {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
-.skills li {
+.skills div {
+    display: flex;
+    justify-content: space-between;
+    /* : 40px; */
+}
+.skills div li{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
-.skills li i {
+.skills div li i {
     font-size: 80px;
 }
 /* .color-facebook {
