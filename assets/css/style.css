@@ -138,10 +138,22 @@ p {
 
 
 /*==========================================
-   SOCIAL ICON STYLES
+ Skills
     =====================================================*/
 
-.color-facebook {
+.skills {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.skills li {
+    display: flex;
+    flex-direction: column;
+}
+.skills li i {
+    font-size: 80px;
+}
+/* .color-facebook {
     color:#3B5998;
 }
 .color-twitter {
@@ -155,7 +167,7 @@ p {
 }
 .color-pinterest {
      color:#cb2027;
-}
+} */
 /* ===========================================================
    BOOTSTRAP ELEMENTS CHANGES   
    ============================================================*/
