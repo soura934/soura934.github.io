@@ -175,6 +175,12 @@ p {
 .color-pinterest {
      color:#cb2027;
 } */
+
+.col-sm-4 > img{
+    width: 300px;
+    padding-right: 50px;
+    height: auto;
+}
 /* ===========================================================
    BOOTSTRAP ELEMENTS CHANGES   
    ============================================================*/
